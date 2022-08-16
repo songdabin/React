@@ -5,6 +5,7 @@ function App() {
   const onClick = () => setShowing((prev) => !prev);
 
   function Hello() {
+    /* 18 ~ 21줄과 같은 의미
     function byFn() {
       console.log("bye");
     }
@@ -13,6 +14,12 @@ function App() {
       return byFn;
     }
     useEffect(hiFn, []);
+    */
+    
+    useEffect(() => {
+      console.log("hi");
+      return () => console.log("bye")
+    }, []);
 
     return (<h1>Hello</h1>);
   }
