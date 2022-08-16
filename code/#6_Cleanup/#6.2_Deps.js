@@ -24,7 +24,7 @@ function App() {
     <div>
       <input value={keyword} onChange={onChange} type="text" placeholder="Search here..."/>
       <h1>{counter}</h1>
-      <button onClick={onClick}>click me</button>
+      <button onClick={onClick}>Click me</button>
     </div>
   );
 }
