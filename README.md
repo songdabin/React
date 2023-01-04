@@ -8,6 +8,3 @@
 
   - *Songdabin* -
     [github.com/songdabin](https://github.com/songdabin)
-
-## Previous Step
-[Nomad Coders](https://nomadcoders.co/javascript-for-beginners) - [ReactJS로 영화 웹 서비스 만들기](https://github.com/songdabin/JS)
